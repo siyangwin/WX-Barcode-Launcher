@@ -25,6 +25,7 @@ WX-Barcode-Launcher 是一个轻量级微信小程序，用于通过参数传值
   "compileType": "miniprogram",
   ...
 }
+```
 
 
 ---
