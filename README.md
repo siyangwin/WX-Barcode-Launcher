@@ -13,6 +13,11 @@ WX-Barcode-Launcher 是一个轻量级微信小程序，用于通过参数传值
 
 ---
 
+### 示例用途
+比如传递名片加好友。
+![实例1](https://github.com/user-attachments/assets/87479bf6-4e87-43a4-b49a-70c8165bf33d)
+![实例2](https://github.com/user-attachments/assets/39107e1a-454a-4578-b6c8-0337d6204159)
+
 ## 🚀 使用说明
 
 ### 1. 小程序配置（修改 `project.config.json`）
@@ -34,6 +39,8 @@ WX-Barcode-Launcher 是一个轻量级微信小程序，用于通过参数传值
 
 项目中包含一个网页跳转示例文件 `wechat.html`，可在手机浏览器中打开该文件，并跳转打开你的小程序，同时传递参数。
 
+跳转方式可看官方文档：https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/url-scheme.html
+
 #### 使用步骤如下：
 
 1. 打开项目根目录中的 `wechat.html` 文件。
@@ -47,8 +54,6 @@ WX-Barcode-Launcher 是一个轻量级微信小程序，用于通过参数传值
    浏览器将会跳转打开微信小程序，并传递 `data` 参数用于生成二维码。
 
 **注意：** 该跳转方式仅适用于手机浏览器，PC 有可能旧版本浏览器不支持 `weixin://` 协议跳转。
-
-
 
 ---
 
